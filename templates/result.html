@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Life Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <u><b><h1 style="text-align: center;">Your Past Life Prediction</h1></b></u>
+    <div class="prediction-box">
+        {{ prediction }}
+    </div>
+    <a href="/" class="close-btn">CLOSE</a>
+    <footer>
+        <div class="social-media-links">
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FProkerala" target="_blank"><img src="static\css\images\580b57fcd9996e24bc43c53e.png"></a>
+        <a href="https://www.facebook.com/Prokerala" target="_blank"><img src="static\css\images\icons8-facebook-48.png" alt="Facebook" /></a>
+        <a href="https://www.youtube.com/c/Prokerala" target="_blank"><img src="static\css\images\youtube-logo-png-46031.png" alt="Yotube" /></a>
+        <a href="https://www.pinterest.com/prokerala/" target="_blank"><img src="static\css\images\icons8-pinterest-48.png" alt="Pinterest" /></a>
+        <a href="mailto:your@email.com" target="_blank"><img src="static\css\images\icons8-gmail-logo-48.png" alt="Mail" /></a>
+        </div>
+        {% include 'footer.html' %}
+      </footer>
+
+</body>
+</html>
+
+
